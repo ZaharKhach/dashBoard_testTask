@@ -1,0 +1,35 @@
+&__profile {
+  margin-top: 586px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 0px 123px 76px 28px;
+  &__logo-block {
+    width: 42px;
+    height: 42px;
+    img {
+      width: 100%;
+      border-radius: 42px;
+    }
+  }
+  &__info-block {
+    margin-left: 12px;
+  }
+  &__name {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.14px;
+  }
+  &__subname {
+    color: #757575;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+  }
+}
