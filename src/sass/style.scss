@@ -7,6 +7,8 @@ body {
   margin: 0;
   padding: 0;
   background: #FAFBFF;
+  display: flex;
 }
 
 @import './blocks/sideMenu/side-menu';
+@import './blocks/product/producnt.scss'
