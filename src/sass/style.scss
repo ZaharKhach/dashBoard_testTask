@@ -9,6 +9,10 @@ body {
   background: #FAFBFF;
   display: flex;
 }
+.countainer {
+  max-width: 882px;
+  margin: 0 auto;
+}
 
 @import './blocks/sideMenu/side-menu';
 @import './blocks/product/product.scss'

@@ -103,17 +103,117 @@
     <div class="product">
         <h1 class="product__greeting">Hello Evano👋🏼,</h1>
         <div class="product__info">
-            <div class="product__info__header">
-                <div class="product__info__header__title-box">
-                    <div class="product__info__header__title">All Customers</div>
-                    <div class="product__info__header__subtitle">Active Members</div>
+            <div class="countainer">
+                <div class="product__info__header">
+                    <div class="product__info__header__title-box">
+                        <div class="product__info__header__title">All Customers</div>
+                        <div class="product__info__header__subtitle">Active Members</div>
+                    </div>
+
+                    <div class="product__info__header__search-box">
+                        <div class="product__info__header__search-icon">
+                            <img src="./icons/search.svg" alt="">
+                        </div>
+                        <input class="product__info__header__search-input" placeholder="Search"></input>
+                    </div>
                 </div>
-                 
-                <div class="product__info__header__search-box">
-                    <div class="product__info__header__search-icon"><img src="./icons/search.svg" alt=""></div>
-                    <div class="product__info__header__search-text">Search</div>
-                </div>
+
+                <table class="product__info__table">
+                    <thead class="product__info__table__thead">
+                        <tr class="product__info__table__thead-row">
+                            <td class="product__info__table__thead-column">Customer Name</td>
+                            <td class="product__info__table__thead-column">Company</td>
+                            <td class="product__info__table__thead-column">Phone Number</td>
+                            <td class="product__info__table__thead-column">Email</td>
+                            <td class="product__info__table__thead-column">Country</td>
+                            <td class="product__info__table__thead-column">Status</td>
+                        </tr>
+                    </thead>
+                    <tbody class="product__info__table__tbody">
+                        <tr class="product__info__table__row">
+                            <td class="product__info__table__column">Jane Cooper</td>
+                            <td class="product__info__table__column">Microsoft</td>
+                            <td class="product__info__table__column">(225) 555-0118</td>
+                            <td class="product__info__table__column">jane@microsoft.com</td>
+                            <td class="product__info__table__column">United States</td>
+                            <td class="product__info__table__column">
+                                <button class="product__info__table__button_active">Active</button>
+                            </td>
+                        </tr>
+                        <tr class="product__info__table__row">
+                            <td class="product__info__table__column">Floyd Miles</td>
+                            <td class="product__info__table__column">Yahoo</td>
+                            <td class="product__info__table__column">(205) 555-0100</td>
+                            <td class="product__info__table__column">floyd@yahoo.com</td>
+                            <td class="product__info__table__column">Kiribati</td>
+                            <td class="product__info__table__column">
+                                <button class="product__info__table__button_inactive">Inactive</button>
+                            </td>
+                        </tr>
+                        <tr class="product__info__table__row">
+                            <td class="product__info__table__column">Ronald Richards</td>
+                            <td class="product__info__table__column">Adobe</td>
+                            <td class="product__info__table__column">(302) 555-0107</td>
+                            <td class="product__info__table__column">ronald@adobe.com</td>
+                            <td class="product__info__table__column">Israel</td>
+                            <td class="product__info__table__column">
+                                <button class="product__info__table__button_inactive">Inactive</button>
+                            </td>
+                        </tr>
+                        <tr class="product__info__table__row">
+                            <td class="product__info__table__column">Marvin McKinney</td>
+                            <td class="product__info__table__column">Tesla</td>
+                            <td class="product__info__table__column">(252) 555-0126</td>
+                            <td class="product__info__table__column">marvin@tesla.com</td>
+                            <td class="product__info__table__column">Iran</td>
+                            <td class="product__info__table__column">
+                                <button class="product__info__table__button_active">Active</button>
+                            </td>
+                        </tr>
+                        <tr class="product__info__table__row">
+                            <td class="product__info__table__column">Jerome Bell</td>
+                            <td class="product__info__table__column">Google</td>
+                            <td class="product__info__table__column">(629) 555-0129</td>
+                            <td class="product__info__table__column">jerome@google.com</td>
+                            <td class="product__info__table__column">Réunion</td>
+                            <td>
+                                <button class="product__info__table__button_active">Active</button>
+                            </td>
+                        </tr>
+                        <tr class="product__info__table__row">
+                            <td class="product__info__table__column">Kathryn Murphy</td>
+                            <td class="product__info__table__column">Microsoft</td>
+                            <td class="product__info__table__column">(406) 555-0120</td>
+                            <td class="product__info__table__column">kathryn@microsoft.com</td>
+                            <td class="product__info__table__column">Curaçao</td>
+                            <td class="product__info__table__column">
+                                <button class="product__info__table__button_active">Active</button>
+                            </td>
+                        </tr>
+                        <tr class="product__info__table__row">
+                            <td class="product__info__table__column">Jacob Jones</td>
+                            <td class="product__info__table__column">Yahoo</td>
+                            <td class="product__info__table__column">(208) 555-0112</td>
+                            <td class="product__info__table__column">jacob@yahoo.com</td>
+                            <td class="product__info__table__column">Brazil</td>
+                            <td class="product__info__table__column">
+                                <button class="product__info__table__button_active">Active</button>
+                            </td>
+                        </tr>
+                        <tr class="product__info__table__row">
+                            <td class="product__info__table__column">Kristin Watson</td>
+                            <td class="product__info__table__column">Facebook</td>
+                            <td class="product__info__table__column">(704) 555-0127</td>
+                            <td class="product__info__table__column">kristin@facebook.com</td>
+                            <td class="product__info__table__column">Åland Islands</td>
+                            <td class="product__info__table__column">
+                                <button class="product__info__table__button_inactive">Inactive</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
+
         </div>
     </div>
 </body>

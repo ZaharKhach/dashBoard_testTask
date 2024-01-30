@@ -1,0 +1,42 @@
+&__table {
+  border-collapse: collapse;
+  box-sizing: border-box;
+  margin: 40px 0 30px 0;
+  width: 100%;
+  & td {
+    padding: 24px 0px;
+  }
+  & tr {
+    border-bottom: 1px solid #eee;
+  }
+  &__button {
+    display: flex;
+    width: 80px;
+    padding: 4px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    @import "./_active/active";
+    @import "./_inactive/inactive";
+  }
+  &__thead-column {
+    color: #b5b7c0;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.14px;
+    text-align: left;
+  }
+  &__column {
+    color: #292d32;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.14px;
+  }
+}

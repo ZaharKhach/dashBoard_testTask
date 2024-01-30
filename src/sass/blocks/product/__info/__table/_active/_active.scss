@@ -1,0 +1,12 @@
+&_active {
+  @extend .product__info__table__button;
+  border: 1px solid #00b087;
+  background: rgba(22, 192, 152, 0.38);
+
+  color: #008767;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.14px;
+}
