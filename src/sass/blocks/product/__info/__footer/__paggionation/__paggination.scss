@@ -1,0 +1,26 @@
+&__paggination {
+  width: 271px;
+  display: flex;
+  justify-content: space-between;
+
+  &__item {
+    display: inline-flex;
+    padding: 6px 9px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    background: #f5f5f5;
+
+    color: #404b52;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 12px */
+    letter-spacing: -0.12px;
+
+    @import './_active/active';
+  }
+}

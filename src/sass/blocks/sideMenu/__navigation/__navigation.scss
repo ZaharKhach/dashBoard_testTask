@@ -19,7 +19,6 @@
     justify-content: space-between;
     align-items: center;
 
-    @import './active';
 
     &__wrapper {
       display: flex;
@@ -49,6 +48,8 @@
     &__arrow-image {
       width: 100%;
     }
+
+    @import './active';
   }
 
   

@@ -1,0 +1,8 @@
+&__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @import './__paggination-text/_paggination-text';
+    @import './__paggionation/_paggination';
+}
